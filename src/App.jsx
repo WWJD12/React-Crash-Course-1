@@ -1,7 +1,7 @@
 import './App.css';
-import Todo from './components/components/Todo.jsx';
-import Title from './components/components/Title.jsx';
-import Modal from './components/components/Modal.jsx';
+import Todo from './components/Todo';
+import Title from './components/Title';
+import Modal from './components/Modal';
 function App() {
   return (
     <div>
