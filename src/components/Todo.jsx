@@ -1,12 +1,12 @@
 import './Todo.css'
 
-function Todo({ title, onTodoDelelte }) {
+function Todo({ title, onTodoDelete}) {
     
 
 return (
     <div className='todo'>
-         <p>{title}</p>
-       <button onClick={onTodoDelelte}>Delete</button>
+         <h2>{title}</h2>
+       <button onClick={onTodoDelete}>Delete</button>
     </div>
 )
 }
