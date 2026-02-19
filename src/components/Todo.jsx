@@ -1,14 +1,12 @@
 import './Todo.css'
 
-function Todo({ title }) {
-    function deleteTodo(id) {
-        console.log('deleteTodo()', title.toUpperCase())
-    }
+function Todo({ title, onTodoDelelte }) {
+    
 
 return (
     <div className='todo'>
          <p>{title}</p>
-       <button onClick={() => deleteTodo(1)}>Delete</button>
+       <button onClick={onTodoDelelte}>Delete</button>
     </div>
 )
 }
