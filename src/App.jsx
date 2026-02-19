@@ -9,7 +9,7 @@ function App() {
       <Nav />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path='/users/:username' element={<Uusers />} />
+        <Route path='/users/:username' element={<Users />} />
       </Routes>
     </Router>
    
