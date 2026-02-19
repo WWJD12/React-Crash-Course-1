@@ -10,7 +10,7 @@ function App() {
 
   function onTodoDelete() {
     setShowModal(true)
-    console.log('onTodoDelete')
+    console.log('onTodoDelete()')
   }
 
   function cancelModal() {
