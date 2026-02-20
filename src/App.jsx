@@ -8,10 +8,9 @@ import Contact from "./components/Pages/Contact.jsx";
 function App() {
   return (
     <Router>
-      <Nav />
-      <Routes>
+     <Routes>
         <Route path="/" element={<Home />} />
-        <Route path='/users/:username' element={<Users />} />
+        <Route path="/users/:id" element={<Users />} />
       </Routes>
     </Router>
    
