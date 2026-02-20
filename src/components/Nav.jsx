@@ -2,10 +2,10 @@ import { Link } from "react-router-dom";
 
 function Nav() {
     return (<nav>
-            <link to="/">Home</link>
-            <link to="/users/ronaldo">Ronaldo</link>
-            <link to="/users/messi">Messi</link>
-            <link to="/users/br4gg">David Bragg</link>
+            <Link to="/">Home</Link>
+            <Link to="/users/ronaldo">Ronaldo</Link>
+            <Link to="/users/messi">Messi</Link>
+            <Link to="/users/br4gg">David Bragg</Link>
           </nav>
           )
 }
