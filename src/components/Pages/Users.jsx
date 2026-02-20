@@ -10,9 +10,8 @@ async function fetchUser() {
     setUser(data)
 }
     useEffect(() => {
-        
-    }, 
-    [])
+        fetchUser();
+    }, []);
    return (
      <div>
 
